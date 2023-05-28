@@ -1,2 +1,3 @@
 # .github
-Spear AI’s public GitHub repository
+
+Spear AI’s public GitHub repository.
