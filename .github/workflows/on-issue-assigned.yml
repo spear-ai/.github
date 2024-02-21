@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: alex-page/github-project-automation-plus@v0.8.3
         with:
-          project: {{ vars.PROJECT_NAME }} 
-          column: {{ vars.ASSIGNED_STATUS }}
+          project: ${{ vars.PROJECT_NAME }} 
+          column: ${{ vars.ASSIGNED_STATUS }}
           repo-token: ${{ secrets.GITHUB_TOKEN }}
