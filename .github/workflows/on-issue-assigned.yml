@@ -28,4 +28,4 @@ jobs:
         with:
           project: ${{ vars.PROJECT_NAME }} 
           column: ${{ vars.ASSIGNED_STATUS }}
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GH_TOKEN }}
