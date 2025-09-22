@@ -1,17 +1,13 @@
-<!-- Please don't create a pull request without creating an issue first. Any changes should be discussed before proceeding, failure to do so may result in the rejection of the pull request. -->
+> [!NOTE]
+> Please don't create a pull request without first creating an issue. Any changes should be talked about before proceeding; failure to do so may result in the rejection of the pull request. 🤗
 
 ## Description
 
-<!-- Please provide enough information here so that others can review you pull request. You can skip this if you're fixing a typo or making a very minor change. -->
+If this pull request resolves one or more GitHub issues, please make sure it's associated with each issue. You can associate the pull request with an issue by adding [closing keywords](https://docs.github.com/articles/closing-issues-using-keywords) to the description.
 
-## Testing
+Please provide enough information so that others can review your pull request. You don't need to add any information that's already contained in related GitHub issues. It's also a good idea to include screenshots or steps used to test your changes.
 
-<!-- Demonstrate the code is solid. Include the exact commands you ran and their output. Provide screenshots and/or videos if the pull request changes UI. -->
+## Preflight checklist
 
-- [ ] Test
-
-## Issues
-
-<!-- Put `Closes #XXXX` in your comment to auto-close the issue that your PR fixes (if such). -->
-
-- Closes #
+- [ ] Yes, this code exposes personally identifiable information [(PII)](https://en.wikipedia.org/wiki/Personal_data#NIST_definition)
+- [ ] Yes, this code obfuscates personally identifiable information
